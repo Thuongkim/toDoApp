@@ -23,6 +23,9 @@ body {
   opacity: 0.3;
   display: flex;
 }
+.taskBg .taskText {
+  flex: 1;
+}
 .taskNumber {
   color: #999;
   border: 1px solid #999;
@@ -36,3 +39,21 @@ body {
   align-items: center;
   justify-content: center;
 }
+.taskBg .iconsWrap {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  width: auto;
+  display: inline-block;
+}
+.taskBg .iconsWrap span {
+  display: inline-block;
+  margin: 0px 10px 0px 10px;
+  cursor: pointer;
+  color: #00ff89;
+}
+.taskBg .iconsWrap span:hover {
+  color: yellow;
+}
+
